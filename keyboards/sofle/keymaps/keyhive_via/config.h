@@ -22,8 +22,11 @@ see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options.
 */
 
+#define EE_HANDS
+
 //Add RGB underglow
 #define RGB_DI_PIN D3
-#define RGBLED_NUM 14
-#define RGBLED_SPLIT {7,7}
+#define RGBLED_NUM 74
+#define RGBLED_SPLIT {37,37}
 #define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_LIMIT_VAL 192 
